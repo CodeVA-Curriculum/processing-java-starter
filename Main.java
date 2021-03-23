@@ -4,8 +4,6 @@ public class Main extends PApplet{
 
 	int x = 0;
 	int y = 100;
-
-	Circle b = new Circle(this);
 	
 	public void settings(){
 		size(500, 500);
@@ -15,9 +13,6 @@ public class Main extends PApplet{
 		background(255);
 		ellipse(x, y, 50, 50);
 		x += 1;
-		text("Hello", 10, 10);
-
-		b.draw();
 	}
 	
 	public void mousePressed(){
