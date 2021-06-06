@@ -11,12 +11,8 @@ public class Main extends PApplet{
 	
 	public void draw(){
 		background(255);
-		ellipse(x, y, 50, 50);
+		ellipse(x, y, 100, 100);
 		x += 1;
-	}
-	
-	public void mousePressed(){
-		background(64);
 	}
 	
 	public static void main(String[] args){
